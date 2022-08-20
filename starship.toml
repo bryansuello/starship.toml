@@ -221,4 +221,5 @@ format = '[ $symbol ($version) ]($style)'
 disabled = false
 time_format = "%I:%M" # Hour:Minute Format
 style = "bg:#076678"
-format = '[ 🏀 $time ]($style)'
+format = '[ $time 🏀 ]($style)'
+
