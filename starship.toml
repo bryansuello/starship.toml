@@ -86,11 +86,12 @@
 # [git_status]
 # disabled = true
 
+# AF3A03 orange
 
 format = """
-[](#AF3A03)\
+[](#010854)\
 $username\
-[](bg:#79740E fg:#AF3A03)\
+[](bg:#79740E fg:#010854)\
 $directory\
 [](fg:#79740E bg:#427B58)\
 $git_branch\
@@ -119,9 +120,9 @@ $time\
 # You can also replace your username with a neat symbol like  to save some space
 [username]
 show_always = true
-style_user = "bg:#AF3A03"
-style_root = "bg:#AF3A03"
-format = '[ $user ]($style)'
+style_user = "bg:#010854"
+style_root = "bg:#010854"
+format = '[ $user 🏀 ]($style)'
 
 [directory]
 style = "bg:#79740E"
@@ -218,7 +219,7 @@ style = "bg:#8F3F71"
 format = '[ $symbol ($version) ]($style)'
 
 [time]
-disabled = false
+disabled = true
 time_format = "%I:%M" # Hour:Minute Format
 style = "bg:#076678"
 format = '[ $time 🏀 ]($style)'
