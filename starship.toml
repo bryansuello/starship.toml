@@ -93,10 +93,10 @@ format = """
 $username\
 [](bg:#8800F2 fg:#010854)\
 $directory\
-[](fg:#8800F2 bg:#427B58)\ 
+[](fg:#8800F2 bg:#F2751C)\ 
 $git_branch\
 $git_status\
-[](fg:#427B58 bg:#8F3F71)\
+[](fg:#F2751C bg:#004B00)\
 $c\
 $elixir\
 $elm\
@@ -107,7 +107,7 @@ $julia\
 $nodejs\
 $nim\
 $rust\
-[](fg:#8F3F71 bg:#06969A)\
+[](fg:#004B00 bg:#06969A)\
 $docker_context\
 [](fg:#06969A bg:#076678)\
 $time\
@@ -145,77 +145,77 @@ truncation_symbol = "…/"
 
 [c]
 symbol = " "
-style = "bg:#8F3F71"
+style = "bg:#004B00"
 format = '[ $symbol ($version) ]($style)'
 
 [docker_context]
 symbol = " "
-style = "bg:#427B58"
+style = "bg:#F2751C"
 format = '[ $symbol $context ]($style) $path'
 
 [elixir]
 symbol = " "
-style = "bg:#8F3F71"
+style = "bg:#004B00"
 format = '[ $symbol ($version) ]($style)'
 
 [elm]
 symbol = " "
-style = "bg:#8F3F71"
+style = "bg:#004B00"
 format = '[ $symbol ($version) ]($style)'
 
 [git_branch]
 symbol = ""
-style = "bg:#427B58"
+style = "bg:#F2751C"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "bg:#427B58"
+style = "bg:#F2751C"
 format = '[$all_status$ahead_behind ]($style)'
 
 [golang]
 symbol = " "
-style = "bg:#8F3F71"
+style = "bg:#004B00"
 format = '[ $symbol ($version) ]($style)'
 
 [haskell]
 symbol = " "
-style = "bg:#8F3F71"
+style = "bg:#004B00"
 format = '[ $symbol ($version) ]($style)'
 
 [java]
 symbol = " "
-style = "bg:#8F3F71"
+style = "bg:#004B00"
 format = '[ $symbol ($version) ]($style)'
 
 [julia]
 symbol = " "
-style = "bg:#8F3F71"
+style = "bg:#004B00"
 format = '[ $symbol ($version) ]($style)'
 
 [nodejs]
 symbol = ""
-style = "bg:#8F3F71"
+style = "bg:#004B00"
 format = '[ $symbol ($version) ]($style)'
 
 [nim]
 symbol = " "
-style = "bg:#8F3F71"
+style = "bg:#004B00"
 format = '[ $symbol ($version) ]($style)'
 
 [rust]
 symbol = ""
-style = "bg:#8F3F71"
+style = "bg:#004B00"
 format = '[ $symbol ($version) ]($style)'
 
 
 [php]
 symbol = ""
-style = "bg:#8F3F71"
+style = "bg:#004B00"
 format = '[ $symbol ($version) ]($style)'
 
 [python]
 symbol = " "
-style = "bg:#8F3F71"
+style = "bg:#004B00"
 format = '[ $symbol ($version) ]($style)'
 
 [time]
