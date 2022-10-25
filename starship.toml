@@ -91,9 +91,9 @@
 format = """
 [](#010854)\
 $username\
-[](bg:#79740E fg:#010854)\
+[](bg:#8800F2 fg:#010854)\
 $directory\
-[](fg:#79740E bg:#427B58)\
+[](fg:#8800F2 bg:#427B58)\ 
 $git_branch\
 $git_status\
 [](fg:#427B58 bg:#8F3F71)\
@@ -125,7 +125,7 @@ style_root = "bg:#010854"
 format = '[ $user 🏀 ]($style)'
 
 [directory]
-style = "bg:#79740E"
+style = "bg:#8800F2"
 format = "[ $path ]($style)"
 truncation_length = 2 #from 3
 truncation_symbol = "…/"
